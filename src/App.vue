@@ -6,7 +6,12 @@
 <script>
 export default {
   setup() {
+    let state = reactive({
+
+    })
+
     return {
+      state
     }
   }
 }
