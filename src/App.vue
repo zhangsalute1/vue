@@ -6,6 +6,7 @@
 <script>
 export default {
   setup() {
+    let zhangjingjie = ref(satisfies)
     return {
     }
   }
