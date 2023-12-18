@@ -9,7 +9,7 @@ export const usedefineStore= defineStore('counter',()=>{
     }  
     //getter定义
     const doubleCount = computed(()=>{
-        count.value*2
+        return  count.value*2
     })
 
     //以对象的方式return供组件使用
